@@ -19,8 +19,7 @@ Raw columns (typical): InvoiceNo, StockCode, Description, Quantity, InvoiceDate,
 Although the original is a multi-sheet XLSX, this project uses a single CSV and filters by date (2010-01-01 ≤ InvoiceDate < 2012-01-01).
 
 3) Project Structure
-├── notebooks/
-│   └── MVP_Churn_OnlineRetailII.ipynb     # Main exploratory notebook (EDA)
+|── MVP_Churn_OnlineRetailII.ipynb     # Main exploratory notebook (EDA)
 ├── data/
 │   └── online_retail_II.csv               # Consolidated CSV (ignored if large)
 ├── README.md
